@@ -1,1 +1,31 @@
-/* Empty. Add your own CSS if you like */
+/* ----------------------------------------------------------------------------------
+    Font Awesome
+---------------------------------------------------------------------------------- */
+@font-face {
+    font-family: 'fontawesome';
+    src:url('/lib/font-awesome/fonts/fontawesome-webfont.eot');
+    src:url('/lib/font-awesome/fonts/fontawesome-webfont.eot') format('embedded-opentype'),
+        url('/lib/font-awesome/fonts/fontawesome-webfont.woff') format('woff'),
+        url('/lib/font-awesome/fonts/fontawesome-webfont.ttf') format('truetype'),
+        url('/lib/font-awesome/fonts/fontawesome-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.chevron-circle-left:before {
+    font-family: "fontawesome";
+    content: "\f137";
+}
+
+
+/* ----------------------------------------------------------------------------------
+    Fixes the view of the logo.
+---------------------------------------------------------------------------------- */
+.title-image { height: 95%; }
+
+
+/* ----------------------------------------------------------------------------------
+    Additional formatting.
+---------------------------------------------------------------------------------- */
+.space-top-20 { margin-top: 20px; }
+.space-top-40 { margin-top: 40px; }
