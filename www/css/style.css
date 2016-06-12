@@ -17,11 +17,24 @@
     content: "\f137";
 }
 
+.chevron-circle-right:before {
+    font-family: "fontawesome";
+    content: "\f138";
+}
+
 
 /* ----------------------------------------------------------------------------------
-    Fixes the view of the logo.
+    Fixes for various view issues.
 ---------------------------------------------------------------------------------- */
+/* Resize logo to fit on navbar. */
 .title-image { height: 95%; }
+
+/* Auto-wrap stacked labels. */
+.input-label {
+   white-space: normal !important;
+   max-width: none !important;
+   width: 100%;
+}
 
 
 /* ----------------------------------------------------------------------------------
