@@ -7,25 +7,45 @@
                     <div class="list">
                         <label class="item item-input item-stacked-label">
                             <span class="input-label">Avg # of months on Market for homes that are ASP Staged before Sale</span>
-                            <input type="number" placeholder="e.g. 0.4">
+                            <input type="number" placeholder="e.g. 0.4"
+                                id="frmMonthsBeforeASPStaged"
+                                ng-model="userValues.monthsBeforeASPStaged"
+                                required
+                            />
                         </label>
                         <label class="item item-input item-stacked-label">
                             <span class="input-label">Avg # of months on Market for homes that are Not Staged before Sale</span>
-                            <input type="Number" placeholder="e.g. 3.0">
+                            <input type="Number" placeholder="e.g. 3.0"
+                                id="frmMonthsBeforeNotASPStaged"
+                                ng-model="userValues.monthsBeforeNotASPStaged"
+                                required
+                            />
                         </label>
                         <label class="item item-input item-stacked-label">
                             <span class="input-label">Mortgage Amount per Month (Dollar Amount)</span>
-                            <input type="number" placeholder="e.g. 3000">
+                            <input type="number" placeholder="e.g. 3000"
+                                id="frmMortgageAmount"
+                                ng-model="userValues.mortgageAmount"
+                                required
+                            />
                         </label>
 
                         <label class="item item-input item-stacked-label">
                             <span class="input-label">Monthly Utilities, HO fees, taxes, insurance &amp; upkeep (Dollar Amount)</span>
-                            <input type="number" placeholder="e.g. 500">
+                            <input type="number" placeholder="e.g. 500"
+                                id="frmUtilityAndFees"
+                                ng-model="userValues.utilityAndFees"
+                                required
+                            />
                         </label>
 
                         <label class="item item-input item-stacked-label">
                             <span class="input-label">Staging Investment (Dollar Amount)</span>
-                            <input type="number" placeholder="e.g. 3000">
+                            <input type="number" placeholder="e.g. 3000"
+                                id="frmStagingInvestment"
+                                ng-model="userValues.stagingInvestment"
+                                required
+                            />
                         </label>
                     </div>
                 </div>
